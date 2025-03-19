@@ -25,10 +25,10 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'io.flutterfastkit.fk_user_agent'
     }
-    compileSdkVersion 30
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 30
     }
 
     lintOptions {
